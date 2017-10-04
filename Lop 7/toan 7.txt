@@ -1,0 +1,77 @@
+﻿<html>
+<header>
+HÌNH HỌC
+</header>
+<title>
+</title>
+<style>
+	body{
+		background-image:url('images/MathHD12.jpg');
+		background-color: rgb(60, 179, 113);
+		background-repeat : no-repeat;
+		background-size: cover;
+		background-opacity: 0.2;
+		}
+	header{
+		font-size:100px;
+		color:blue;
+		text-align:center;
+	}
+</style>
+<body>
+<table style="width=100%";  id="t01";>
+		<caption style="font-size:45px; color:green">CÁC GÓC CẦN PHẢI NHỚ</caption>
+			<tr style="color:red; font-size:20px";>
+		    		<th>HAI GÓC SO LE TRONG</th>
+		    		<th>HAI GÓC ĐỒNG VỊ</th> 
+		   		<th>HAI GÓC TRONG CÙNG PHÍA</th>
+				<th>HAI GÓC ĐỐI ĐỈNH</th>
+		  	</tr>
+  			<tr>
+    			<th width="320" height="350"><img src="images/soletrong.png" width="320" height="350"></th>
+    			<th width="320" scope="col"><img src="images/dongvi.png" width="320" height="350"></th>
+    			<th width="320" scope="col"><img src="images/trongcungphia.png" width="320" height="350"></th>
+    			<th width="320" scope="col"><img src="images/doidinh.png" width="320" height="350"></th>
+  			</tr>
+		</table><br><br>
+		
+		<p style="color:red; font-size: 40px">
+	<marquee behavior="alternate" width="10%" >>></marquee>Năm cách chứng minh hai đường thẳng song song với nhau<marquee behavior="alternate" width="10%"><< </marquee>
+		</p>
+	<h1>
+	1) Hai góc <mark>so le trong</mark> bằng nhau<br>
+	2) Hai góc <mark>đồng vị</mark> bằng nhau<br>
+	3) Hai góc <mark>trong cùng phía</mark> bù nhau (tổng bằng 180<sup>o</sup>)<br>
+	4) Hai đường thẳng cùng vuông góc với đường thẳng thứ 3<br>
+	5) Hai đường thẳng cùng song song với đường thẳng thứ 3<br>
+	</h1><br>	
+		
+	<h1 style="color:red; font-size:20px"> NỘI DUNG KIỂM TRA 1TIẾT</h1>
+		<table style="width=100%";  id="t02";>
+			<tr>
+    			<th width=220" height="200"><p> <ins>BÀI 1</ins>: Cho a // b và <br> góc A<sub>1</sub> = 65<sup>o</sup></p><br>
+<p>Tính số đo các góc: B<sub>1</sub>, B<sub>2</sub>, A<sub>3</sub></p></th>
+    			<th width="220" scope="col"><img src="images/bt1kt1t.png" width="220" height="200"></th>
+			<th width=220" height="200"><p> <ins>BÀI 2</ins>: Cho Ax // By và góc <br>A = 125<sup>o</sup>; góc B = 150<sup>o</sup> </p><br>
+<p>Tính số đo các góc AHB?</p></th>
+    			<th width="220" scope="col"><img src="images/bt2kt1t.png" width="220" height="200"></th>
+			<th width=220" height="200"><p> <ins>BÀI 3</ins>: Cho Dn // Km và góc <br>D = 100<sup>o</sup>; góc K = 135<sup>o</sup> </p><br>
+<p>Tính số đo các góc DIK?</p></th>
+    			<th width="220" scope="col"><img src="images/bt3kt1t.png" width="220" height="200"></th>
+    		</table>
+		<table style="width=100%";  id="t03";>
+			<tr>
+    			<th width=220" height="200"><p> <ins>BÀI 4</ins>: Cho hình vẽ bên, biết góc M<sub>3</sub>=110<sup>o</sup></p><br>
+<p>Tính số đo góc K<sub>2</sub>?</p></th>
+    			<th width="220" scope="col"><img src="images/bt4kt1t.png" width="220" height="200"></th>
+			<th width=220" height="200"><p> <ins>BÀI 5</ins>: Cho góc SAH = 120<sup>o</sup>, AJ là phân giác và AH // SJ</p><br>
+<p>Tính số đo góc AJH?</p></th>
+    			<th width="220" scope="col"><img src="images/bt5kt1t.png" width="220" height="200"></th>
+			<th width=220" height="200"><p> <ins>BÀI 6</ins>: Cho Mx // HN // PQ; MH // NQ // Py và góc P = 108<sup>o</sup></p><br>
+<p>Tính số đo các góc M và góc Q?</p></th>
+    			<th width="220" scope="col"><img src="images/bt6kt1t.png" width="220" height="200"></th>
+    		</table>
+<p></p>
+  			
+</body>
+</html>

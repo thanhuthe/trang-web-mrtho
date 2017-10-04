@@ -1,0 +1,26 @@
+﻿
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color:red">CỐ GẮNG HIỂU TỪNG BÀI</h1>
+<h1>Bài 1: Tìm a, b &isin; sao cho 5 < a < b < 10 </h1>
+<p>
+a) 3<sup>2</sup>. x + 1 = 37<br>
+9x + 1 = 37<br>
+9x = 37 - 1<br>
+9x = 36<br>
+x = 36 : 9<br>
+x = 4
+</p>
+
+<h1>Bài 2</h1>
+<p>
+b) 
+
+<h1>Bài 3</h1>
+<p>
+c) 
+</p>
+</p><br>
+</body>
+</html>

@@ -1,0 +1,176 @@
+﻿
+<button style="float:right"  type="button"
+onclick="document.getElementById('demo').innerHTML = Date()"; >
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			footer{
+			text-align:center;
+			}
+			@-webkit-keyframes my {
+				 0% { color: #F8CD0A; } 
+				 50% { color: #fff;  } 
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @-moz-keyframes my { 
+				 0% { color: #F8CD0A;  } 
+				 50% { color: #fff;  }
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @-o-keyframes my { 
+				 0% { color: #F8CD0A; } 
+				 50% { color: #fff; } 
+				 100% { color: #F8CD0A;  } 
+			 }
+			 @keyframes my { 
+				 0% { color: #F8CD0A;  } 
+				 50% { color: #fff;  }
+				 100% { color: #F8CD0A;  } 
+			 } 
+			.cauchao{
+				font-size:24px; <!-- kich thuoc chu -->
+		         font-weight:bold; <!-- chu in dam -->
+				 -webkit-animation: my 700ms infinite;
+				 -moz-animation: my 700ms infinite; 
+				 -o-animation: my 700ms infinite; 
+				 animation: my 700ms infinite;
+			}
+			body{
+				background-image:url('images/MathHD12.jpg');
+				background-color: rgb(60, 179, 113);
+				background-repeat : no-repeat;
+				background-size: cover;
+				background-opacity: 0.2;
+			}
+			
+			table, th,td {
+				border:1px solid blue;
+				border-collapse:collapse;
+				}
+				td {
+				padding: 7px;	
+				}	
+				th {
+				text-align: center;
+					}
+				table#t01 th {
+				background-color: black;
+				color: white;
+					}
+				table#t01 tr:nth-child(odd) {
+				background-color:#ff6347;
+					}
+			
+			table#t02 {
+			background-color:#f1f1c1;
+				}
+			header{
+			text-align:center;
+			background-color:MediumSeaGreen;
+			padding: 30px;
+			display: block;
+			font-size:50px;
+			}
+			table#t03{
+			border: 0px;
+			float: center;
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">	
+		<title> Trang chủ</title>
+		<link rel="icon" href="./images/icon.png" text="images/png"/>
+	</head>
+		
+	<header>
+		Knowledge is power
+	</header>
+		<p class="cauchao">
+		<marquee direction="left">Chào mừng các bạn đến với trang web học toán!</marquee>
+	</p>
+	<body>
+	<nav>
+		    <ul>
+		        <li><a href="#">Home</a>
+			<ul>
+		                       <li><a href="#">Nhà khoa học nổi tiếng</a>
+		                    	<ul>
+		                        <li><a href="#">Albert Einstein</a></li>
+		                        <li><a href="#">Nobel</a> </li>
+		                        <li><a href="#">Gauss</a> </li>
+		                    	</ul>
+		                        </li>
+		                        <li><a href="#">Câu chuyện toán học</a></li>
+		                        <li><a href="#">Nhà khoa học Việt Nam</a></li>
+                         	                        <li><a href="#">Lớp chủ nhiệm</a></li>
+		              </ul>
+		        </li>
+		        <li><a href="#">Lớp 6</a>
+			<ul>
+		                       <li><a href="lop 6/toan 6.html">Nội dung Kiểm Tra 1T</a></li>
+		                        <li><a href="#">SỐ HỌC</a></li>
+		                        <li><a href="#">HÌNH HỌC</a></li>
+                         	                        <li><a href="#">Đề kiểm tra</a></li>
+		                 </ul>
+		        </li>
+		        <li><a href="#">Lớp 7</a>
+		            <ul>
+		                <li><a href="#">Nội dung kiểm tra 1T</a></li>
+		                <li><a href="#">ĐẠI SỐ</a></li>
+		                <li>
+			            <a href="lop 7/hinhhoc.html">HÌNH HỌC</a>
+	  			<ul>
+		                        <li><a href="#">Cách chứng minh 2 đường thẳng song song</a></li>
+		                        <li><a href="#">Hai góc so le trong?</a></li>
+		                        <li><a href="#">Hai góc đồng vị?</a></li>
+			      <li><a href="#">Hai góc trong cùng phía?</a></li>
+		                        <li><a href="#">Hai góc đối đỉnh?</a></li>
+		                   	 </ul>
+			</li>
+                         	                <li><a href="#">Đề kiểm tra</a></li>
+		            </ul>
+		        </li>
+		<li><a href="#">Lớp 8</a>
+		            <ul>
+		                <li><a href="lop 8/toan 8.html">Bài tập rèn luyện</a> 
+		                </li>
+		            </ul>
+		        </li>
+		    </ul>
+		</nav><br><br><br><br><br>
+		<table style="width=100%";  id="t03";>
+		<caption style="font-size:45px; color:green">THƯ VIỆN ẢNH</caption>
+  			<tr>
+    			<th width="420" height="400"><img src="images/bang.gif" width="420" height="400"></th>
+    			<th width="420" scope="col"><img src="images/fibonacci.gif" width="420" height="400"></th>
+    			<th width="420" scope="col"><img src="images/hop.gif" width="420" height="400"></th>
+    			<th width="420" scope="col"><img src="images/launuocmat.gif" width="420" height="400"></th>
+  			</tr>
+		</table>
+<br><br><br>
+
+		<table style="width:100%"; id="t01";>
+		<caption><h2>Bảng thông tin</h3></caption>
+		  	<tr style="color:white";>
+		    		<th>Bài tập về nhà</th>
+		    		<th>Bài tập nâng cao</th> 
+		   		<th>Cần học thuộc</th>
+				<th>Lịch kiểm tra (có thể thay đổi)</th>
+		    		<th>Chú thích</th>
+		  	</tr>
+		  	<tr>
+		    		<td>Bài .... trang ....</td>
+		    		<td>Bài ..... trong đề cương</td>
+		    		<td>Các loại công thức</td>
+				<td>Thứ ... ngày ... tháng...</td>
+				<td>  </td>
+		 	 </tr>
+		</table><br>
+
+	<footer style="color:red">Copyright &copy  www.mrthothl.edu.vn</footer>
+	</body>
+</htm

@@ -1,0 +1,160 @@
+
+div.container {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+
+
+
+h1 {
+	color:#EDEDED;
+  text-align:center;
+  font-family: 'Open Sans', sans-serif;
+  
+}
+
+nav {
+	display:table;
+	margin:100px auto;
+	box-shadow:0px 2px 0px #023333;  	
+}
+
+ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul ul {
+	opacity:0;
+	position:absolute;
+	top:160%;
+	visibility:hidden;
+	transition:all .4s ease;
+	-webkit-transition:all .4s ease;
+}
+
+ul ul ul {
+	top:0%;
+	left:160%;
+}
+ul ul li:hover > ul {
+	top:0%;
+	left:100%;
+	opacity:1;
+	visibility:visible;
+}
+ul li:hover > ul {
+	opacity:1;
+	top:100%;
+	visibility:visible;
+}
+ul li {
+	float:left;
+	position:relative;
+}
+ul ul li {
+	float:none;
+}
+ul li {
+	background-color:#009C75;
+	cursor: pointer;
+}
+ul a {
+	font-size: 30px;	
+	text-decoration:none;
+	display:block;
+	color:#FF9;
+	padding:10px 15px;
+	width:9em;
+	text-align:center;
+  	font-family: 'Open Sans', sans-serif;
+}
+ul li:hover {
+	background-color:#007373;
+}
+ul li a:hover {
+	background-color:#7FFF00;
+}
+
+/* Banner */
+* {box-sizing:border-box}
+    body {font-family: Verdana,sans-serif;margin:0}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: gray;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  position: relative;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .slprev, .slnext,.text {font-size: 11px}
+}
+
+.a{
+  margin-top: 1000px;
+}

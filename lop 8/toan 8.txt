@@ -1,0 +1,159 @@
+﻿<button style="float:right"  type="button"
+onclick="document.getElementById('demo').innerHTML = Date()"; >
+Click me to display Date and Time.</button>
+<p id="demo"></p>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body{
+			background-image:url('images/MathHD12.jpg');
+			background-color: rgb(60, 179, 113);
+			background-repeat : no-repeat;
+			background-size: cover;
+			background-opacity: 0.2;
+			}
+
+			button{
+			text-align: center;
+			}
+
+			footer{
+			text-align: center;
+			padding: 100px;
+			}
+	
+		</style>
+	</head>
+	<body style="font-size:20px">
+		<h2 style="color:red">BẮT BUỘC NHỚ HẾT CÁC HẰNG ĐẲNG THỨC</h2>
+		<h1 style="color:blue; text-align:center">CÁC BÀI TẬP VỀ PHÂN TÍCH NHÂN TỬ CHUNG</h1>
+	<p class="cauchao">
+	<marquee direction="left"><h3> Lúc nào cũng nhớ: "Nhân tử chung trước, hằng đẳng thức sau"</h3>
+	</marquee>
+	</p>
+		<table style="width:100%">
+			<tr>
+				<td>
+				<p>
+				1) x<sup>3</sup> - 2x + x
+				<button type="button" onclick= "cau1()">Gợi ý</button>
+				<p id="cau1"></p>
+			<script>
+			function cau1(){
+document.getElementById("cau1").innerHTML="x(x<sup>2</sup> - 2x + 1) = x(x - 1)<sup>2</sup>";
+			}
+			</script>
+
+				2) 6x<sup>2</sup> + 12xy + 6y<sup>2</sup>
+				<button type="button" onclick="cau2()">Gợi ý</button>
+				<p id="cau2"></sup></p>
+			<script>
+			function cau2(){
+document.getElementById("cau2").innerHTML="Dùng nhân tử chung rồi tiếp HĐT";
+			}
+			</script>
+
+				3) 2y<sup>3</sup> + 8y<sup>2</sup> + 8y<br>
+				4) 5x<sup>2</sup> - 10xy +5y<sup>2</sup><br>
+				5) x<sup>3</sup> - 64x<br>
+			</p>
+			</td>
+
+			<td>
+			<p>
+				6) 8x<sup>2</sup>y - 18y<br>
+				7) 24x<sup>3</sup> - 3<br>
+				8) 5x<sup>2</sup> + 10x + 5 - 5y<sup>2</sup><br>
+				9) 3<sup>3</sup> + 6x<sup>2</sup> + 3x - 12xy<sup>2</sup><br>
+				10) a<sup>3</sup>b - ab<sup>3</sup> + a<sup>2</sup> - 2ab +b<sup>2</sup><br>
+			</p>
+			</td>
+			<td>
+			<p>
+
+				11) 2x<sup>3</sup> - 2xy<sup>2</sup> - 8x<sup>2</sup> + 8xy<br>
+				12) (x<sup>2</sup> - 9y<sup>2</sup>) - (4x + 12y)<br>
+				13) (x<sup>2</sup> - 16y<sup>2</sup>) - 3x +12y<br>
+				14) -x<sup>2</sup> + 2xy - y<sup>2</sup> + 25<br>
+				15) x<sup>3</sup> + 6x<sup>2</sup> +12x + 8<br>
+			</p>
+			</td>
+			<td>
+			<p>
+				16) x<sup>2</sup> + 2x - 3
+				<button type="button" onclick= "cau16()">Gợi ý</button>
+				<p id="cau16"></p>
+			<script>
+			function cau16(){
+document.getElementById("cau16").innerHTML="Tách 2x thành 3x - x. Khi đó: x<sup>2</sup> + 3x - x  - 3 = x(x + 3 - (x+3) = (x + 3)(x - 1)";
+			}
+			</script>
+				17) x<sup>2</sup> + 3x - 10<br>
+				18) x<sup>2</sup> - x - 12<br>
+				19) 3x<sup>2</sup> - 7 + 4x<br>
+				20) x<sup>2</sup> - 2x - 4y<sup>2</sup> - 4y
+			</p>	
+			</td>
+		</tr>
+	</table>
+	
+<audio autoplay >
+<source src="media/TheHotelCaliforia-HoaTau-3501128_hq.mp3" type="audio/mp3">
+</audio>
+<p>&nbsp;</p>
+
+		<h1 style="color: blue; text-align:center">CÁC BÀI TẬP VỀ TÌM X</h1>
+
+	<table style="width:100%">
+		<tr>
+		<td>
+			<p>
+			1) x<sup>2</sup> - 2x + 1 = 0<br>
+			2) 25 - x<sup>2</sup> = 0<br>
+			3) 7 - x<sup>2</sup> = 0<br>
+			4) x - x<sup>3</sup> = 0<br>
+			5) x<sup>2</sup> + 4x = - 4<br>
+			</p>
+		</td>	
+		<td>
+			<p>
+			6) x<sup>3</sup> + 4x<sup>2</sup> + 4x = 0<br>
+			7) (x + 3)<sup>2</sup> - 4 = 0<br>
+			8) x<sup>4</sup> - 9x<sup>2</sup> = 0<br>
+			9) x<sup>2</sup> - 6x + 9 = 81
+			<button type="button" onclick="cau9x()">Gợi ý</button>
+			<p id="cau9x"></sup></p>
+		<script>
+		function cau9x(){
+document.getElementById("cau9x").innerHTML="Vế trái là HĐT số 2, sau đó chuyển vế rồi dùng HĐT số 3";
+		}
+		</script>
+			10) x<sup>3</sup> +6x<sup>2</sup> + 9x - 4x = 0<br>
+			</p>
+		</td>
+
+		<td>
+			<p>
+			11) 3x<sup>2</sup> - 12x = 0<br>
+			12) (x<sup>2</sup> - 8x) - 3x + 24 = 0<br>
+			13) (x - 2)<sup>2</sup> - 5(2 - x) = 0<br>
+			14) (x<sup>3</sup> - 8) +2x<sup>2</sup> - 4x = 0<br>
+			15) x<sup>2</sup>(x - 3) + 18 - 6x = 0<br>
+			</p>
+		</td>
+		<td>
+			<p>
+			16) (x - 5)<sup>2</sup> = (7 - x)<sup>2</sup><br>
+			17) 36x<sup>3</sup> = x<br>
+			18) x<sup>2</sup> - 49 = (x - 7)<sup>2</sup><br>
+			19) x<sup>2</sup> - 4x + 3 = 0<br>
+			20) - x<sup>2</sup> - x +12 = 0<br>
+			</p>
+		</td>
+		</tr>
+	</table>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+﻿
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color:red">LÀM THẬT NHIỀU BÀI TẬP CÁC DẠNG TÌM X</h1>
+<h1>Bài 1</h1>
+<p>
+a) 3<sup>2</sup>. x + 1 = 37<br>
+9x + 1 = 37<br>
+9x = 37 - 1<br>
+9x = 36<br>
+x = 36 : 9<br>
+x = 4
+</p>
+
+<h1>Bài 2</h1>
+<p>
+b) (2x + 5) - 3<sup>3</sup> = 2<sup>3</sup> <br>
+(2x + 5) - 27 = 8<br>
+2x + 5 = 8 + 27<br>
+2x + 5 = 35<br>
+2x = 35 - 5<br>
+2x = 30<br>
+x = 15
+
+<h1>Bài 3</h1>
+<p>
+c) 4 <sup>x</sup> - 17 = 47<br>
+4<sup>x</sup> = 47 + 17<br>
+4<sup>x</sup> = 64<br>
+4<sup>x</sup> = 4<sup>3</sup><br>
+x = 4
+</p>
+</p><br>
+</body>
+</html>

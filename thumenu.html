@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <style>
+		.menu{
+        background-color: #0080C0;
+    }
+ 
+    .menu>li{
+        float: left;
+        margin-right: 15px;
+    }
+     
+    .menu>li>a{
+        text-transform: uppercase;
+        color: #fff;
+    }
+ 
+    .menu li{
+        position: relative;
+    }
+ 
+    .menu li a{
+        padding: 10px;
+        line-height: 20px;
+        display: inline-block;
+    }
+ 
+    .menu .sub-menu{
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        width: 200px;
+        background-color: #eee;
+        padding: 5px 20px;
+    }
+     
+    .menu li:hover>.sub-menu{
+        display: block;
+    }
+ 
+    .menu>li>.sub-menu{
+        top: 40px;
+        left: 0;
+    }
+		
+	</style>
+</head>
+
+<body>
+	<div class="menu">
+        <ul>
+          <li>Lớp 6</li>
+            <ul class="sub-menu">
+                <li> Bài tập cơ bản </li>
+                <li> Bài tập nâng cao </li>
+                <li> Bài tập mẫu </li>
+                <li> Đề kiểm tra </li>
+            </ul>
+          <li>Lớp 7</li>
+            <ul class="sub-menu">
+                <li> Bài tập cơ bản </li>
+                <li> Bài tập nâng cao </li>
+                <li> Bài tập mẫu </li>
+                <li> Đề kiểm tra </li>
+            </ul>
+          <li>Lớp 8</li>
+            <ul class="sub-menu">
+                <li> Bài tập cơ bản </li>
+                <li> Bài tập nâng cao </li>
+                <li> Bài tập mẫu </li>
+                <li> Đề kiểm tra </li>
+            </ul>
+          <li>Lớp 9</li>
+            <ul class="sub-menu">
+                <li> Bài tập cơ bản </li>
+                <li> Bài tập nâng cao </li>
+                <li> Bài tập mẫu </li>
+                <li> Đề kiểm tra </li>
+            </ul>
+        </ul>
+     </div>
+</body>
+</html>
